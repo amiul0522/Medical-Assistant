@@ -70,4 +70,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 - Your Name - [amiul0522@gmail.com](mailto:amiul0522@gmail.com)
 
-Project Link: [https://github.com/KalyanMurapaka45/Medical-Assisstant](https://github.com/KalyanMurapaka45/Medical-Assisstant)
+Project Link: [https://github.com/amiul0522/Medical-Assistant](https://github.com/amiul0522/Medical-Assistant)
