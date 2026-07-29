@@ -1,73 +1,140 @@
-# Medical Query Generator
+<div align="center">
 
-A Flask web application that uses Google's GenerativeAI (Gemini) to generate medical responses based on user input. The application simulates a medical expert providing accurate advice to a patient's query.
+# 🩺 Medical Query Generator
 
-## About The Project
+**AI-powered medical Q&A, built on Google Gemini + Flask**
 
-The Medical Query Generator is a web application that leverages Google's GenerativeAI to generate detailed and accurate medical responses. Users input medical queries, and the application provides responses adhering to specific guidelines for clarity, accuracy, and informativeness.
+Ask a health question. Get a clear, guideline-driven response — in seconds.
 
-## Getting Started
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-Web%20App-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Gemini](https://img.shields.io/badge/Google-Gemini%20API-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
 
-To get started with the project, follow the steps below.
+</div>
+
+---
+
+## ✨ What is this?
+
+**Medical Query Generator** is a lightweight Flask app that puts Google's **Gemini** GenerativeAI model to work as a virtual medical assistant. Type in a health question, and the app returns a detailed, well-structured response — designed for clarity, accuracy, and helpfulness.
+
+> ⚠️ **Disclaimer:** This tool is for informational purposes only and is **not a substitute for professional medical advice, diagnosis, or treatment.** Always consult a qualified healthcare provider for medical concerns.
+
+---
+
+## 🚀 Features
+
+| | |
+|---|---|
+| 🤖 | **AI-Powered Answers** — Backed by Google's Gemini GenerativeAI model |
+| 🌐 | **Simple Web Interface** — Clean, no-frills Flask front end |
+| 📋 | **Guideline-Driven Responses** — Structured for clarity and accuracy |
+| 🔐 | **Secure Config** — API keys managed via environment variables |
+| ⚡ | **Fast Setup** — Up and running in under 5 minutes |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Flask (Python)
+- **AI Model:** Google GenerativeAI (Gemini)
+- **Config:** python-dotenv
+
+---
+
+## 📦 Getting Started
 
 ### Prerequisites
 
-- Google API Key
-- Google Generativeai
-- Flask
-- Python Dotenv
+Make sure you have:
+
+- ✅ Python 3.9+
+- ✅ A Google API Key
+- ✅ `pip` for installing dependencies
 
 ### Installation
 
-1. Clone the repository:
+**1. Clone the repository**
 
+```bash
+git clone https://github.com/KalyanMurapaka45/Medical-Assisstant.git
+cd medical-query-generator
+```
+
+**2. Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**3. Set up your Google API Key**
+
+- Head to the [Google Cloud Console](https://console.cloud.google.com/)
+- Enable the **GenerativeAI API**
+- Generate an API key
+- Add it to a `.env` file in the project root:
+
+```env
+GOOGLE_API_KEY=your_api_key_here
+```
+
+**4. Run the app**
+
+```bash
+python app.py
+```
+
+🎉 Your app is now live at **[http://localhost:5000/](http://localhost:5000/)**
+
+---
+
+## 💡 Usage
+
+1. Open **[http://localhost:5000/](http://localhost:5000/)** in your browser
+2. Type in your medical query, following the on-screen guidelines
+3. Click **"Generate Response"**
+4. Read your AI-generated, guideline-aligned answer
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make open source such an amazing place to learn and build. Any contributions you make are **greatly appreciated**!
+
+1. 🍴 Fork the project
+2. 🌿 Create your feature branch
    ```bash
-   git clone https://github.com/KalyanMurapaka45/Medical-Assisstant.git
-   cd medical-query-generator
+   git checkout -b feature/YourFeature
    ```
-
-2. Install dependencies:
-
+3. 💾 Commit your changes
    ```bash
-   pip install -r requirements.txt
+   git commit -m "Add some feature"
    ```
-
-3. Set up your Google API Key:
-
-   - Create a project on the [Google Cloud Console](https://console.cloud.google.com/).
-   - Enable the GenerativeAI API.
-   - Create an API key and add it to your environment variables or a `.env` file.
-
-4. Run the application:
-
+4. 📤 Push to the branch
    ```bash
-   python app.py
+   git push origin feature/YourFeature
    ```
+5. 🔁 Open a Pull Request
 
-   The application will be accessible at [http://localhost:5000/](http://localhost:5000/).
+---
 
-## Usage
+## 📄 License
 
-1. Open your web browser and navigate to [http://localhost:5000/](http://localhost:5000/).
-2. Input a medical query following the provided guidelines.
-3. Click the "Generate Response" button to obtain a detailed medical response.
+Distributed under the **MIT License**. See [`LICENSE.txt`](LICENSE.txt) for details.
 
-## Contributing
+---
 
-Contributions to the Medical Query Generator are welcome! If you have suggestions, enhancements, or bug fixes, please follow the steps below:
+## 📬 Contact
 
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
+**Amiul** — [amiul0522@gmail.com](mailto:amiul0522@gmail.com)
 
-## License
+🔗 Project Link: [github.com/amiul0522/Medical-Assistant](https://github.com/amiul0522/Medical-Assistant)
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+---
 
-## Contact
+<div align="center">
 
-- Your Name - [amiul0522@gmail.com](mailto:amiul0522@gmail.com)
+If you found this useful, consider giving it a ⭐!
 
-Project Link: [https://github.com/amiul0522/Medical-Assistant](https://github.com/amiul0522/Medical-Assistant)
+</div>ps://github.com/amiul0522/Medical-Assistant)
